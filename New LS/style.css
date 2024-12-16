@@ -1,0 +1,245 @@
+/* Header styles */
+header {
+    background-color: #673ab7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo img {
+    height: 100px;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.topbar {
+    background-color: #673ab7;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+
+.topbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #673ab7;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.large-font {
+    font-size: 36px;
+}
+
+.medium-font {
+    font-size: 24px;
+}
+
+/* Additional styles for index.php */
+.wrapper {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec_img {
+    background-image: url('img/Library.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Styles for loginform.php */
+.login-form {
+    background-color: transparent;
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+
+.login-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.login-form input[type="text"], .login-form input[type="password"] {
+    background-color: transparent;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: width 0.3s ease;
+}
+
+.login-form input[type="text"]:focus, .login-form input[type="password"]:focus {
+    width: 100%;
+}
+
+.login-form .login-btn {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form .login-btn:hover {
+    background-color: #000;
+}
+
+.login-form .back-btn {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form .back-btn:hover {
+    background-color: #000;
+    color: white;
+}
+
+.login-form .register-btn {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form .register-btn:hover {
+    background-color: #000;
+    color: white;
+}
+
+/* Styles for registerform.php */
+.register-form {
+    background-color: transparent;
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #673ab7;
+}
+
+.register-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.register-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.register-form input[type="text"], .register-form input[type="password"], .register-form input[type="email"] {
+    background-color: transparent;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: width 0.3s ease;
+}
+
+.register-form input[type="text"]:focus, .register-form input[type="password"]:focus, .register-form input[type="email"]:focus {
+    width: 100%;
+}
+
+.register-form .register-btn {
+    background-color: #673ab7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-form .register-btn:hover {
+    background-color: #512da8;
+}
+
+.register-form .back-btn {
+    background-color: #673ab7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-form .back-btn:hover {
+    background-color: #512da8;
+    color: white;
+}
+
+
